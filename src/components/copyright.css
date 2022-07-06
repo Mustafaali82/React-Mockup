@@ -1,0 +1,18 @@
+.copyright{
+    height: 5pc;
+    background-color: #233537;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.span{
+  color: #40D2CF;   
+}
+
+@media screen and (max-width: 768px) {
+  .copyright{
+    margin-top: 50%;
+  }
+}

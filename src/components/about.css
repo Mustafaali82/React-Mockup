@@ -1,0 +1,50 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  padding: 200px;
+  height: 100px;
+  gap: 50px;
+}
+
+.img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.one {
+  width: 288px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top:80px;
+}
+
+P {
+  text-align: center;
+}
+
+.button{
+    align-self: center;
+    position: relative;
+    left:45em;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .about{
+    grid-template-columns: 1fr;
+    height: 70em;
+    justify-content: center;
+    margin-top: 11em;
+    padding: 0;
+    gap: 0;
+  }
+
+  .button{
+    left: 0;
+  }
+}

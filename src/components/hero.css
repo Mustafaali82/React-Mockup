@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  background-color: #40d2cf;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FF2C59;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    text-align: center;
+    font-size: 38px;
+  }
+}
